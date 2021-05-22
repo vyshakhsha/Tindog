@@ -1,0 +1,139 @@
+body{
+  font-family: "Montserrat",sans-serif;
+}
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-weight: "Montserrat-thin"
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.feature-item{
+  text-align: center;
+}
+.feature1{
+  text-align: center;
+}
+.feature-item h1{
+  color: #ef8172;
+  font-size: 4.3rem;
+}
+.feature-item h1:hover{
+  color: #ff4c68;
+}
+.feature-item h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.feature-item p{
+  color: #8f8f8f;
+  padding:0 10%;
+}
+#features{
+  padding: 5% 0% 2%;
+  position: relative;
+  background-color: #fff;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+  font-family: "Montserrat-bold",sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+#press{
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1035px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 20% 4%;
+}
+#cta h3{
+  font-family: "Montserrat-black",sans-serif;
+  color: #fff;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+#footer
+{
+  text-align: center;
+  background-color: #fff;
+  padding: 4% 20% 2%;
+}
+.items{
+  display: inline-block;
+  padding-left: 20px
+}
+#footer p{
+  padding-top: 15px;
+  color: rgb(98, 98, 98);
+}
